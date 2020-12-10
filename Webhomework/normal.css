@@ -1,0 +1,25 @@
+/*
+* @Author: 李家豪
+* @Date:   2020-06-01 19:00:27
+* @Last Modified by:   李家豪
+* @Last Modified time: 2020-12-04 08:34:33
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear:after{
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
