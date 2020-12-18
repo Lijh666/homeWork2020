@@ -80,8 +80,8 @@ function closeSign(){
 
 var i = 0;
 function bannerInterval(){
-	document.getElementById("div_1");
-	id = setInterval(function(){
+	div_1 = document.getElementById("div_1");
+	setInterval(function(){
 		if (parseInt(getComputedStyle(div_1)["right"])%1200 == 0){
 			setTimeout(function(){
 				right = parseInt(getComputedStyle(div_1)["right"]);
